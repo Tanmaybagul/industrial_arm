@@ -1,0 +1,257 @@
+<?xml version="1.0" ?>
+<robot name="Industrial" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Industrial_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Industrial_description)/urdf/Industrial.trans" />
+<xacro:include filename="$(find Industrial_description)/urdf/Industrial.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.234694148348208 -0.06429639617408645 0.040120465748492755" rpy="0 0 0"/>
+    <mass value="45.320405515308934"/>
+    <inertia ixx="0.286643" iyy="0.286643" izz="0.523385" ixy="0.006277" iyz="-0.000324" ixz="-0.000324"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="orange"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_1_1">
+  <inertial>
+    <origin xyz="0.006042417827426871 -0.0590001893432299 0.08488435010887023" rpy="0 0 0"/>
+    <mass value="18.778884371419746"/>
+    <inertia ixx="0.193618" iyy="0.098022" izz="0.132528" ixy="0.008285" iyz="0.074163" ixz="-0.007032"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.23612 0.065722 -0.085413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="gray"/>
+  </visual>
+  <collision>
+    <origin xyz="0.23612 0.065722 -0.085413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_2_1">
+  <inertial>
+    <origin xyz="-0.0156301408287825 0.007525531714989875 0.14387457885487004" rpy="0 0 0"/>
+    <mass value="7.268943373254977"/>
+    <inertia ixx="0.149123" iyy="0.146486" izz="0.004838" ixy="-0.000156" iyz="-0.001188" ixz="-0.000488"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.250894 0.216326 -0.245413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="orange"/>
+  </visual>
+  <collision>
+    <origin xyz="0.250894 0.216326 -0.245413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_3_1">
+  <inertial>
+    <origin xyz="0.04786228895113967 -0.042375117416545954 0.03924274594463695" rpy="0 0 0"/>
+    <mass value="11.39115203120399"/>
+    <inertia ixx="0.066968" iyy="0.015339" izz="0.063977" ixy="0.002621" iyz="0.002851" ixz="-0.001083"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.250894 0.216326 -0.605413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="gray"/>
+  </visual>
+  <collision>
+    <origin xyz="0.250894 0.216326 -0.605413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_4_1">
+  <inertial>
+    <origin xyz="0.002450556288815464 -0.0704812595956818 1.436596922532729e-07" rpy="0 0 0"/>
+    <mass value="5.3108306090280415"/>
+    <inertia ixx="0.013445" iyy="0.00543" izz="0.014454" ixy="0.000279" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.194373 0.460509 -0.650413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="orange"/>
+  </visual>
+  <collision>
+    <origin xyz="0.194373 0.460509 -0.650413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_5_1">
+  <inertial>
+    <origin xyz="0.01387818809515512 -0.05838385429816173 1.189022501568715e-07" rpy="0 0 0"/>
+    <mass value="2.6269517183353397"/>
+    <inertia ixx="0.002767" iyy="0.001895" izz="0.002743" ixy="5.5e-05" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.202601 0.583591 -0.650413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="gray"/>
+  </visual>
+  <collision>
+    <origin xyz="0.202601 0.583591 -0.650413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_6_1">
+  <inertial>
+    <origin xyz="0.0005682615181246409 -0.016340842031222436 1.1897784124581534e-07" rpy="0 0 0"/>
+    <mass value="0.600362897448829"/>
+    <inertia ixx="0.000253" iyy="0.000315" izz="0.000301" ixy="-2e-06" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.187341 0.677117 -0.650413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="orange"/>
+  </visual>
+  <collision>
+    <origin xyz="0.187341 0.677117 -0.650413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_7_copy_1">
+  <inertial>
+    <origin xyz="-0.019113719860132827 -0.046814002809522304 -0.012499881020845982" rpy="0 0 0"/>
+    <mass value="0.41150180123882096"/>
+    <inertia ixx="0.000484" iyy="7.2e-05" izz="0.000513" ixy="-0.000117" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.226983 0.711408 -0.663413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_7_copy_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="0.226983 0.711408 -0.663413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_7_copy_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Jaw_7_copy_2">
+  <inertial>
+    <origin xyz="0.022319987699577964 -0.045373400547268794 -0.012499881027123738" rpy="0 0 0"/>
+    <mass value="0.41150180123882096"/>
+    <inertia ixx="0.000466" iyy="9e-05" izz="0.000513" ixy="0.000144" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.145413 0.708571 -0.663413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_7_copy_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="0.145413 0.708571 -0.663413" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find Industrial_description)/meshes/Jaw_7_copy_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_L1" type="continuous">
+  <origin xyz="-0.23612 -0.065722 0.085413" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Jaw_1_1"/>
+  <axis xyz="-0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="L1_L2" type="revolute">
+  <origin xyz="-0.014774 -0.150604 0.16" rpy="0 0 0"/>
+  <parent link="Jaw_1_1"/>
+  <child link="Jaw_2_1"/>
+  <axis xyz="0.999396 0.034755 -0.0"/>
+  <limit upper="1.745329" lower="-0.698132" effort="100" velocity="100"/>
+</joint>
+
+<joint name="L2_L3" type="revolute">
+  <origin xyz="0.0 0.0 0.36" rpy="0 0 0"/>
+  <parent link="Jaw_2_1"/>
+  <child link="Jaw_3_1"/>
+  <axis xyz="-0.999396 -0.034755 0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="L3_L4" type="continuous">
+  <origin xyz="0.056521 -0.244183 0.045" rpy="0 0 0"/>
+  <parent link="Jaw_3_1"/>
+  <child link="Jaw_4_1"/>
+  <axis xyz="-0.034755 0.999396 0.0"/>
+</joint>
+
+<joint name="L4_L5" type="revolute">
+  <origin xyz="-0.008228 -0.123082 0.0" rpy="0 0 0"/>
+  <parent link="Jaw_4_1"/>
+  <child link="Jaw_5_1"/>
+  <axis xyz="-0.999396 -0.034755 0.0"/>
+  <limit upper="1.745329" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="L5_L6" type="continuous">
+  <origin xyz="0.01526 -0.093526 0.0" rpy="0 0 0"/>
+  <parent link="Jaw_5_1"/>
+  <child link="Jaw_6_1"/>
+  <axis xyz="-0.034755 0.999396 0.0"/>
+</joint>
+
+<joint name="L6_GL" type="revolute">
+  <origin xyz="-0.039642 -0.034291 0.013" rpy="0 0 0"/>
+  <parent link="Jaw_6_1"/>
+  <child link="Jaw_7_copy_1"/>
+  <axis xyz="-0.0 -0.0 -1.0"/>
+  <limit upper="0.523599" lower="-0.523599" effort="100" velocity="100"/>
+</joint>
+
+<joint name="L6_GR" type="revolute">
+  <origin xyz="0.041928 -0.031454 0.013" rpy="0 0 0"/>
+  <parent link="Jaw_6_1"/>
+  <child link="Jaw_7_copy_2"/>
+  <axis xyz="-0.0 -0.0 -1.0"/>
+  <limit upper="5.235988" lower="4.712389" effort="100" velocity="100"/>
+</joint>
+
+</robot>
