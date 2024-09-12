@@ -95,7 +95,7 @@
     <inertia ixx="0.013445" iyy="0.00543" izz="0.014454" ixy="0.000279" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.194373 0.460509 -0.650413" rpy="0 0 0"/>
+    <origin xyz="0.208 0.460509 -0.650413" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find Industrial_description)/meshes/Jaw_4_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -137,7 +137,7 @@
     <inertia ixx="0.000253" iyy="0.000315" izz="0.000301" ixy="-2e-06" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.187341 0.677117 -0.650413" rpy="0 0 0"/>
+    <origin xyz="0.209 0.677117 -0.65" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find Industrial_description)/meshes/Jaw_6_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -158,7 +158,7 @@
     <inertia ixx="0.000484" iyy="7.2e-05" izz="0.000513" ixy="-0.000117" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.226983 0.711408 -0.663413" rpy="0 0 0"/>
+    <origin xyz="0.25 0.711408 -0.663413" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find Industrial_description)/meshes/Jaw_7_copy_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -179,7 +179,7 @@
     <inertia ixx="0.000466" iyy="9e-05" izz="0.000513" ixy="0.000144" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.145413 0.708571 -0.663413" rpy="0 0 0"/>
+    <origin xyz="0.17 0.708571 -0.663413" rpy="0 0 0"/>
     <geometry>
       <mesh filename="file://$(find Industrial_description)/meshes/Jaw_7_copy_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -217,14 +217,14 @@
 </joint>
 
 <joint name="L3_L4" type="continuous">
-  <origin xyz="0.056521 -0.244183 0.045" rpy="0 0 0"/>
+  <origin xyz="0.0425 -0.244183 0.0425" rpy="0 0 0"/>
   <parent link="Jaw_3_1"/>
   <child link="Jaw_4_1"/>
   <axis xyz="-0.034755 0.999396 0.0"/>
 </joint>
 
 <joint name="L4_L5" type="revolute">
-  <origin xyz="-0.008228 -0.123082 0.0" rpy="0 0 0"/>
+  <origin xyz="0.005 -0.123082 0.0" rpy="0 0 0"/>
   <parent link="Jaw_4_1"/>
   <child link="Jaw_5_1"/>
   <axis xyz="-0.999396 -0.034755 0.0"/>
@@ -232,12 +232,12 @@
 </joint>
 
 <joint name="L5_L6" type="continuous">
-  <origin xyz="0.01526 -0.093526 0.0" rpy="0 0 0"/>
+  <origin xyz="-0.005 -0.093526 0.0" rpy="0 0 0"/>
   <parent link="Jaw_5_1"/>
   <child link="Jaw_6_1"/>
-  <axis xyz="-0.034755 0.999396 0.0"/>
+  <axis xyz="0.0 1.0 0.0"/>
 </joint>
-
+<!--  -->
 <joint name="L6_GL" type="revolute">
   <origin xyz="-0.039642 -0.034291 0.013" rpy="0 0 0"/>
   <parent link="Jaw_6_1"/>
@@ -251,7 +251,7 @@
   <parent link="Jaw_6_1"/>
   <child link="Jaw_7_copy_2"/>
   <axis xyz="-0.0 -0.0 -1.0"/>
-  <limit upper="5.235988" lower="4.712389" effort="100" velocity="100"/>
+  <limit upper="-1.0" lower="0.042" effort="100" velocity="100"/>
 </joint>
 
 </robot>
