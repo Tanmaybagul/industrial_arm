@@ -1,0 +1,11 @@
+# Default initial positions for Industrial's ros2_control fake system
+
+initial_positions:
+  L1_L2: 0
+  L2_L3: 0
+  L3_L4: 0
+  L4_L5: 0
+  L5_L6: 0
+  L6_GL: 0
+  L6_GR: 0
+  base_L1: 0

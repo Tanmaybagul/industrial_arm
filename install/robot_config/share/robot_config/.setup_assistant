@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: Industrial_description
+    relative_path: urdf/Industrial.xacro
+  srdf:
+    relative_path: config/Industrial.srdf
+  package_settings:
+    author_name: Tanmay Bagul
+    author_email: tanmaybagul9096@gmail.com
+    generated_timestamp: 1726292911
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -1,0 +1,9 @@
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/uninstall.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/robot_config_uninstall.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/test.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/edit_cache.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/rebuild_cache.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/list_install_components.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/install.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/install/local.dir
+/home/tanmay/industrial_robot_ws/build/robot_config/CMakeFiles/install/strip.dir
