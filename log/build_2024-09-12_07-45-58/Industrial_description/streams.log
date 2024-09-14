@@ -1,0 +1,55 @@
+[0.994s] Invoking command in '/home/tanmay/industrial_robot_ws/src/Industrial_description': PYTHONPATH=/home/tanmay/industrial_robot_ws/build/Industrial_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Industrial_description build --build-base /home/tanmay/industrial_robot_ws/build/Industrial_description/build install --record /home/tanmay/industrial_robot_ws/build/Industrial_description/install.log --install-scripts $base/lib/Industrial_description --single-version-externally-managed install_data
+[1.245s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.245s]   warnings.warn(
+[1.253s] running egg_info
+[1.254s] creating ../../build/Industrial_description/Industrial_description.egg-info
+[1.256s] writing ../../build/Industrial_description/Industrial_description.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../../build/Industrial_description/Industrial_description.egg-info/dependency_links.txt
+[1.256s] writing entry points to ../../build/Industrial_description/Industrial_description.egg-info/entry_points.txt
+[1.256s] writing requirements to ../../build/Industrial_description/Industrial_description.egg-info/requires.txt
+[1.256s] writing top-level names to ../../build/Industrial_description/Industrial_description.egg-info/top_level.txt
+[1.256s] writing manifest file '../../build/Industrial_description/Industrial_description.egg-info/SOURCES.txt'
+[1.256s] reading manifest file '../../build/Industrial_description/Industrial_description.egg-info/SOURCES.txt'
+[1.258s] writing manifest file '../../build/Industrial_description/Industrial_description.egg-info/SOURCES.txt'
+[1.258s] running build
+[1.258s] running build_py
+[1.258s] creating /home/tanmay/industrial_robot_ws/build/Industrial_description/build
+[1.258s] creating /home/tanmay/industrial_robot_ws/build/Industrial_description/build/lib
+[1.258s] creating /home/tanmay/industrial_robot_ws/build/Industrial_description/build/lib/Industrial_description
+[1.258s] copying Industrial_description/__init__.py -> /home/tanmay/industrial_robot_ws/build/Industrial_description/build/lib/Industrial_description
+[1.259s] running install
+[1.259s] running install_lib
+[1.259s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages/Industrial_description
+[1.259s] copying /home/tanmay/industrial_robot_ws/build/Industrial_description/build/lib/Industrial_description/__init__.py -> /home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages/Industrial_description
+[1.259s] byte-compiling /home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages/Industrial_description/__init__.py to __init__.cpython-310.pyc
+[1.259s] running install_data
+[1.260s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/ament_index
+[1.260s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/ament_index/resource_index
+[1.260s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/ament_index/resource_index/packages
+[1.260s] copying resource/Industrial_description -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/ament_index/resource_index/packages
+[1.260s] copying package.xml -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description
+[1.260s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/launch
+[1.260s] copying launch/gazebo.launch.py -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/launch
+[1.260s] copying launch/display.launch.py -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/launch
+[1.261s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/urdf
+[1.261s] copying urdf/Industrial.gazebo -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/urdf
+[1.261s] copying urdf/materials.xacro -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/urdf
+[1.261s] copying urdf/Industrial.xacro -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/urdf
+[1.261s] copying urdf/Industrial.trans -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/urdf
+[1.261s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_7_copy_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_6_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_5_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_7_copy_2.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/base_link.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_4_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_2_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.262s] copying meshes/Jaw_1_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.263s] copying meshes/Jaw_3_1.stl -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/meshes
+[1.263s] creating /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/config
+[1.263s] copying config/display.rviz -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/config
+[1.263s] running install_egg_info
+[1.266s] Copying ../../build/Industrial_description/Industrial_description.egg-info to /home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages/Industrial_description-0.0.0-py3.10.egg-info
+[1.266s] running install_scripts
+[1.290s] writing list of installed files to '/home/tanmay/industrial_robot_ws/build/Industrial_description/install.log'
+[1.332s] Invoked command in '/home/tanmay/industrial_robot_ws/src/Industrial_description' returned '0': PYTHONPATH=/home/tanmay/industrial_robot_ws/build/Industrial_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Industrial_description build --build-base /home/tanmay/industrial_robot_ws/build/Industrial_description/build install --record /home/tanmay/industrial_robot_ws/build/Industrial_description/install.log --install-scripts $base/lib/Industrial_description --single-version-externally-managed install_data

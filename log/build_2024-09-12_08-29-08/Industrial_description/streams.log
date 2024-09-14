@@ -1,0 +1,23 @@
+[0.911s] Invoking command in '/home/tanmay/industrial_robot_ws/src/Industrial_description': PYTHONPATH=/home/tanmay/industrial_robot_ws/build/Industrial_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Industrial_description build --build-base /home/tanmay/industrial_robot_ws/build/Industrial_description/build install --record /home/tanmay/industrial_robot_ws/build/Industrial_description/install.log --install-scripts $base/lib/Industrial_description --single-version-externally-managed install_data
+[1.159s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.159s]   warnings.warn(
+[1.167s] running egg_info
+[1.168s] writing ../../build/Industrial_description/Industrial_description.egg-info/PKG-INFO
+[1.168s] writing dependency_links to ../../build/Industrial_description/Industrial_description.egg-info/dependency_links.txt
+[1.168s] writing entry points to ../../build/Industrial_description/Industrial_description.egg-info/entry_points.txt
+[1.168s] writing requirements to ../../build/Industrial_description/Industrial_description.egg-info/requires.txt
+[1.169s] writing top-level names to ../../build/Industrial_description/Industrial_description.egg-info/top_level.txt
+[1.170s] reading manifest file '../../build/Industrial_description/Industrial_description.egg-info/SOURCES.txt'
+[1.172s] writing manifest file '../../build/Industrial_description/Industrial_description.egg-info/SOURCES.txt'
+[1.172s] running build
+[1.172s] running build_py
+[1.172s] running install
+[1.172s] running install_lib
+[1.173s] running install_data
+[1.174s] copying urdf/Industrial.xacro -> /home/tanmay/industrial_robot_ws/install/Industrial_description/share/Industrial_description/urdf
+[1.174s] running install_egg_info
+[1.178s] removing '/home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages/Industrial_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.178s] Copying ../../build/Industrial_description/Industrial_description.egg-info to /home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages/Industrial_description-0.0.0-py3.10.egg-info
+[1.179s] running install_scripts
+[1.200s] writing list of installed files to '/home/tanmay/industrial_robot_ws/build/Industrial_description/install.log'
+[1.237s] Invoked command in '/home/tanmay/industrial_robot_ws/src/Industrial_description' returned '0': PYTHONPATH=/home/tanmay/industrial_robot_ws/build/Industrial_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanmay/industrial_robot_ws/install/Industrial_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Industrial_description build --build-base /home/tanmay/industrial_robot_ws/build/Industrial_description/build install --record /home/tanmay/industrial_robot_ws/build/Industrial_description/install.log --install-scripts $base/lib/Industrial_description --single-version-externally-managed install_data
