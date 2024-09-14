@@ -6,3 +6,10 @@
 - **MoveIt2 Control**: Enabled motion planning and real-time control.
 - **RViz Visualization**: Simulated and controlled the robotic arm in the RViz environment.
 
+## Explore and Contribute
+
+- **Explore**: Dive into the project by examining the design files, URDF, and MoveIt2 configurations.
+- **Contribute**: Feel free to fork the repository, submit pull requests, or suggest improvements to enhance functionality or add new features.
+- **Current Status**: I am actively working on this project, so any suggestions or feedback are highly welcomed!
+
+
